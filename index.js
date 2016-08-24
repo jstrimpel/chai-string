@@ -3,11 +3,21 @@
 const chai = require('chai');
 
 module.exports = {
+  /** @type {Function} */
   expect: expect,
+  /** @type {Function} */
   assert: function () { return new Error('implement me'); },
+  /** @type {Function} */
   should: function () { return new Error('implement me'); }
 };
 
+/**
+ * Execute an expectation against a value with an optional comparison value.
+ * @param {*} value to test.
+ * @param {string} expectation chain to be executed by chai.expect.
+ * @param {*} expectedValue to compare against actual value.
+ * @returns {Object|boolean} assertion error object or true.
+ */
 function expect(value, expectation, expectedValue) {
   let expected = chai.expect(value);
   const chain = expectation.split('.');

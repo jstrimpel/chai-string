@@ -1,7 +1,12 @@
 {
   "name": "chai-string",
   "version": "1.0.0",
-  "description": "",
+  "description": "Accepts JSON serializable arguments and delegates to chai.js",
+  "keywords": [
+    "chai",
+    "json",
+    "configuration"
+  ],
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
@@ -12,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jstrimpel/json-expect.git"
+    "url": "git+https://github.com/jstrimpel/chai-string.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Jason Strimpel <jstrimpel@gmail.com>",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jstrimpel/json-expect/issues"
+    "url": "https://github.com/jstrimpel/chai-string/issues"
   },
-  "homepage": "https://github.com/jstrimpel/json-expect#readme",
+  "homepage": "https://github.com/jstrimpel/chai-string#readme",
   "devDependencies": {
     "devtool": "^2.2.0",
     "eslint": "^3.3.1",
