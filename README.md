@@ -24,8 +24,8 @@ If you want to use the [json-expect](https://github.com/jstrimpel/json-expect) o
 [here](https://github.com/jstrimpel/json-expect). If you have no interest in this project or take issue with its
 existence then go [here](https://en.wikipedia.org/wiki/Hell).
 
-If you want documentation then read the test [specifications](blob/master/test/index.js)
-or the [comments](blob/master/index.js). If you are too lazy to do that then read this:
+If you want documentation then read the test [specifications](test/index.js)
+or the [comments](index.js). If you are too lazy to do that then read this:
 
 ```javascript
 var expect = require('chai-string').expect;
