@@ -1,5 +1,5 @@
 {
-  "name": "chai-string",
+  "name": "chai-command-string",
   "version": "1.0.0",
   "description": "Accepts JSON serializable arguments and delegates to chai.js",
   "keywords": [

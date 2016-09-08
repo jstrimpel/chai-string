@@ -14,15 +14,13 @@ I currently work on a service orchestration layer that munges up and shapes a bu
 The orchestration instructions are stored in JSON and read from a configuration service. This is
 so we can change response shapes and what not without having to deploy. At the heart of
 this orhestration service is [JSON Patchwork](https://github.com/walmartlabs/json-patchwork).
-There are such things as [operations](https://github.com/walmartlabs/json-patchwork#operations) in JSON Patchwork
-that are applied to patches. What I wanted was a descriptive/declartive way to test patch values.
-This is why this library was created. I wanted to leverage existing work rather than write my own configuration
-driven assertion library.
+There are such things as [operations](https://github.com/walmartlabs/json-patchwork#operations) that are applied to patches
+and [tests](https://github.com/walmartlabs/json-patchwork#tests) that are used to filter, reduce patches  in JSON Patchwork.
+What I wanted was a descriptive/declartive way to test patch values. This is why this library was created. I wanted to leverage
+existing work rather than write my own configuration driven assertion library.
 
-If you want to learn more about JSON Patchwork go [here](https://github.com/walmartlabs/json-patchwork).
-If you want to use the [json-expect](https://github.com/jstrimpel/json-expect) operator in JSON Patchwork the go
-[here](https://github.com/jstrimpel/json-expect). If you have no interest in this project or take issue with its
-existence then go [here](https://en.wikipedia.org/wiki/Hell).
+If you want to learn more about JSON Patchwork go [here](https://github.com/walmartlabs/json-patchwork). If you have no interest
+in this project or take issue with its existence then go [here](https://en.wikipedia.org/wiki/Hell).
 
 If you want documentation then read the test [specifications](test/index.js)
 or the [comments](index.js). If you are too lazy to do that then read this:
